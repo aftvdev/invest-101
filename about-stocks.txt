@@ -1,0 +1,157 @@
+What is a Stock?
+-An ownership in a company
+-Traded on an exchange (NYSE,SGX,LSE,etc) New York Stock Exchange (Depending on where you are from, your country has an exchange in which to trade stocks)
+-Ownership is shares owned/market cap (total value of stock)
+-11 different sectors (types of stock)
+ 1. energy
+ 2. materials
+ 3. industrials
+ 4. consumer discretionary
+ 5. consumer staples
+ 6. healthcare
+ 7. financials
+ 8. information technology
+ 9. telecommunications
+ 10. utilities
+ 11. Real estate
+
+Types of Stock (Market Capitalization)
+-mega (over 300 billion)
+-large (over 10 billion)
+-mid (2 and 10 billion)
+-small (300 million and 2 billion)
+micro (50 and 300 million)
+nano (below 50 million)
+-penny stocks trading under $5, usually under micro and nano cap.
+
+Why Trade Stocks?
+-beat inflation
+-grow your wealth
+-earn a second income
+
+How to buy a Stock
+-You go to your broker and your broker routes the order to an exchange and in a few seconds your order is confirmed, sends mention back to your broker, and in turn notifies you. 
+-Some people are able to directly put their order in the exchange (usually institutions), but most people go through a broker.
+
+Recap
+-A stock represents an ownership in a company
+-Traded on an exchange
+-Low barrier of entry (you can trade any countrys stocks in any country)
+-Types of stocks (by sector and market cap)
+-You can buy stocks through a broker
+
+How to profit from a stock
+-Buy low sell high
+-Buy high, sell higher
+
+How to calculate your returns
+-Dollar (difference between buying and selling price), does not consider risk
+-Percentage Return (profit / initial price), does not consider risk
+-R multiple (more objective) (2R = risk 1 dollar to make 2 dollars)
+
+Common trading terminologies
+-Long/short
+-Bid and ask
+-Spread
+
+What is long/short?
+-Trade direction
+-Long is when you make a profit as the price goes up -> (long $20, made a profit in the upward direction)
+-Short is when you make a profit as the price goes down <- (short $20, borrow money from your broker and if the price goes down you make the price difference).
+-Short selling is risky because loss can be unlimited.
+
+What is a bid and ask?
+-No one price in a market, two key prices to pay attention to (bid and ask)
+-Bid = the price you can sell at
+-Ask = the price you can buy at
+-Spread = the difference between the bid and the ask 
+-Large cap stocks are more liquid (tighter bid ask spread)
+
+Market Order
+-Enter the market now
+Pros - you know for sure you will be in the trade
+Cons - you pay a premium
+
+Limit Order
+-Enter only if the market comes to your desired price (pullback)
+Pros - Enter at "cheaper price"
+Cons - Might miss the move, Trading against current momentum
+
+Stop Order
+-Enter only if the market moves in your favor (breakout)
+Pros - Enter trades with momentum
+Cons - Might be a false breakout 
+
+Stop Loss Order (most important)
+-Exits the trade if it goes against you (defense mechanism)
+Pros - Cut your losses
+Cons - The market reverse back in your direction
+
+How to analyze a stock
+-Fundamental analysis (what to buy)
+-Technical analysis (when to buy)
+
+Fundamental analysis
+-Qualitative
+-Quantitative
+
+Qualitative Analysis
+-gather insights from the economy, financial statements, company itself to derive intrinsic value of the company. (if the stock price drops below intrinsic value, buy, if the stock price goes above intrinsic value, sell). Intrinsic value is the value you feel the company has immediately. 
+-fundamentals that cant be quantified, 
+-technology disruption (innovation and creativity), 
+-economic moat (Warren Buffet term, i.e. Coca Cola has a strong economic moat), 
+-management
+
+Quantitative Analysis
+-fundamentals that can be quantified
+-assets
+-liabilities
+-revenue, earnings, cash flow, etc.
+-ratios [P/E (price to earnings), PB (price to book value), P/CF (price to cash flow), etc.]
+
+Recap
+Qualitative analysis
+Pros - deeper insight (secret information) 
+Cons - analysis paralysis (which information is relevant to the market currently is hard to decipher, try to look for updated information, latest news and impactful news)
+Quantitative analysis
+Pros - can be quantified
+Cons - sometimes too much information, hard to filter
+
+Which metrics to look at ?
+-Earnings and net income (how earnings increase quarter and quarter, year over year)
+
+Technical Analysis for Stock Trading
+-Trend
+-Area of value
+-Entry trigger
+
+Trend
+-Higher highs and higher lows (in an uptrend, we want to be a buyer, there is a good chance the stock will continue to trend higher).
+-Lower highs and lower lows (in a downtrend, we want to be selling, there is a good chance it will continue trending lower)
+-First fundamental rule: Do not buy stocks in a downtrend, always try to buy them in an uptrend. 
+-200 period MA (to define a trend)
+
+
+Area of Value
+-Wait until the price is at an "area of value"
+-Dont buy just because the stock price is high, wait till it gets to an area of value.
+-How do you define value in trading?
+-Support and Resistance 
+-Support line is horizontal (support line is when the price reaches its "wooden" floor, an area where the price usually bounces (wooden because it doesnt mean that it wont go below the floor, wood can be broken).
+-Trendline
+-Trend line is diagonal
+-Moving Average
+
+Entry Trigger
+-Candlestick patterns
+-Shooting star, hammer, bullish engulfing, bearish engulfing
+
+How to Read Candlestick Pattern
+-Two types of candles (green or red)
+-Top is closing price (high of the day and close), Open price at the bottom and the low below it. 
+-Bearish candle is opposite (red) Open is on top, close is on bottom
+
+Hammer and Shooting Star
+
+Engulfing Pattern
+
