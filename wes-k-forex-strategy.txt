@@ -1,0 +1,18 @@
+Wes K Strategy
+
+So what I’m trying to figure out now is how to trade with the trend. 
+
+Only looking for trades with the trend is the hard part
+Let’s try trading the macd crossovers.
+
+1. Let’s try using the 200 MA as the first confirmation for the trend. If it’s under the 200MA look for SELLS and if it’s above look for BUYS. That may take care of it only trading trends
+2. Let’s use the MACD line crossing over the SIGNAL line as our entry trigger. For example ... price action is ABOVE the 200MA so the bot is only looking for buys. It will enter a BUY above the 200MA every time the MACD line crosses ABOVE the SIGNAL line
+3. Set the TAKE PROFIT trigger when the MACD line crosses the signal line once we’re entered in a trade already. For example... price action is BELOW the 200MA so the bot is only looking for SELLS. The sell entry triggers when price action is BELOW the 200 MA and the MACD line crosses BELOW the SIGNAL line. We then ride the trade until the MACD line crosses back ABOVE the SIGNAL line securing our profits
+4. Let’s have it take trades between the hours of 2am and 2pm. This will give us maximum volume in the markets and the greatest chance of price action obeying the markets algorithm
+
+
+Another strategy ...
+1. Use the relative strength index (rsi) indicator 
+2. The parameters come preset to 30 (oversold) and 70 (overbought ) example: when the signal is over 70 it means the price is overbought and to look for it to sell. Vice versa when it reaches under 30... its oversold so look for a buy
+3. Set the price entry to trigger when the signal goes into overbought territory (above 70) and crosses back under 70 . Vice versa for a buy... trigger entry when price is in oversold territory (below 30) and crosses back up
+4. For the exit we can use the same strategy with the macd and signal crossover on the same parameters... 12,26,9
