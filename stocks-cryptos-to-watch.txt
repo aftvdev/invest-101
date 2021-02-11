@@ -1,0 +1,35 @@
+Stocks to Watch
+Updated 02.11.21
+
+-TWLO - 433.30
+-TSLA - 804.82
+-ZM - 431.00
+-PDD - 1996.61
+-SRNE - 15.29
+-APPL - 135.39
+-AMZN - 3,286.58
+-PLUG - 64.33
+-NVAX - 298.36
+-SPGI - 333.00
+-MSFT - 242.82
+-JD - 98.77
+-IRBT - 127.24
+
+
+-OPEN
+-PACB
+-PSTG
+-Cathie Woods
+-
+
+Cryptos to Watch
+-BTC (Bitcoin)
+-ETH (Ethereum)
+-XRP (Ripple/XRP)
+-DOGE (Dogecoin)
+-THETA (Theta)
+-VGX (Voyager Token)
+-AAVE (AAVE)
+-LTC (Litecoin)
+-LINK
+-PI
