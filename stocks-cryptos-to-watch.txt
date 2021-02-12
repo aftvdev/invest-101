@@ -29,7 +29,14 @@ Cryptos to Watch
 -DOGE (Dogecoin)
 -THETA (Theta)
 -VGX (Voyager Token)
--AAVE (AAVE)
 -LTC (Litecoin)
--LINK
+-ADA
 -PI
+
+
+DeFi Chips
+-AAVE (AAVE)
+-LINK (Chainlink)
+-UNI (Uniswap)
+-COMP (Compound)
+-DAI (DAI)
