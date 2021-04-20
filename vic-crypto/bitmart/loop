@@ -1,0 +1,10 @@
+#!/bin/bash
+#set -x
+IFS=','
+sed -i "s/[//g" bitmart_allsymbols
+sed -i "s/]//g" bitmart_allsymbols
+for symbol in $(cat bitmart_allsymbols); 
+do
+       curl --silent -X GET "https://api-cloud.bitmart.com/spot/v1/ticker?symbol=$symbol" | jq -cr '.data.tickers[] | [.symbol,.last_price,.high_24h,.low_24h,.fluctuation] | @csv' | sed 's/"//g'
+done
+
