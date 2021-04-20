@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+set +x
 curl --silent -X GET "https://api-cloud.bitmart.com/spot/v1/ticker?symbol=$1" | jq -cr '.data.tickers[] | [.symbol,.last_price,.high_24h,.low_24h,.fluctuation] | @csv' | sed 's/"//g' > $1.info 
 cat $1.info | while IFS=',' read symbol price high low percdiff; 
 do 
@@ -10,6 +10,8 @@ do
 	echo $percdiff | cut -c1-1 > $1.percsign
 	echo $percdiff | sed "s/+//g" | sed "s/-//g" > $1.percdiff
 	echo "24H% Diff: $(cat $1.percsign)$(echo `cat $1.percdiff` \* 100 | bc)"
-	
+	rm $1.percsign
+	rm $1.percdiff
+	rm $1.info
 
 done;

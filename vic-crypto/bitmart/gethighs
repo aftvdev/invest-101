@@ -1,0 +1,28 @@
+#!/bin/bash
+#set -x
+IFS=','
+for symbol in $(cat bitmart_allsymbols); 
+do
+       curl --silent -X GET "https://api-cloud.bitmart.com/spot/v1/ticker?symbol=$symbol" | jq -cr '.data.tickers[] | [.symbol,.last_price,.high_24h,.low_24h,.fluctuation] | @csv' | sed 's/"//g' > $symbol.info 
+cat $symbol.info | while IFS=',' read symbol price high low percdiff; 
+do 
+        echo $percdiff | cut -c1-1 > $symbol.percsign
+        echo $percdiff | sed "s/+//g" | sed "s/-//g" > $symbol.percdiff
+	echo `cat $symbol.percdiff` \* 100 | bc > $symbol.perc
+	if [[ `cat $symbol.percsign` == "+" ]]
+         then
+	  if echo "`cat $symbol.perc` > $1" | bc -l | grep -q 1
+	    then
+        	echo "Symbol: $symbol"
+                echo "Price: $price"
+                echo "High: $high"
+                echo "Low: $low"
+                echo "24H% Diff: $(cat $symbol.percsign)$(cat $symbol.perc)"
+	    fi
+	  fi
+        rm $symbol.percsign
+        rm $symbol.percdiff
+        rm $symbol.info
+	rm $symbol.perc
+done
+done
