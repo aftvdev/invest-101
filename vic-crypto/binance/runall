@@ -1,0 +1,13 @@
+#/bin/bash
+echo "Welcome to Vic's Crypto Dashboard"
+echo "Ticker updates every second"
+echo ""
+
+./script.sh GET "https://api.binance.com/api/v3/ticker/price?symbol=$1" | jq -r '.symbol,.price'
+echo ""
+./script.sh GET "https://api.binance.com/api/v3/ticker/price?symbol=$2" | jq -r '.symbol,.price'
+echo ""
+./script.sh GET "https://api.binance.com/api/v3/ticker/price?symbol=$3" | jq -r '.symbol,.price'
+echo ""
+./script.sh GET "https://api.binance.com/api/v3/ticker/price?symbol=$4" | jq -r '.symbol,.price'
+echo ""
