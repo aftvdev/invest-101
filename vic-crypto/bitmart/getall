@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -s -H "X-BM-AUTHORIZATION: Bearer 39d85789a99e28394ad74ab75f68145722b08c1b" -X GET 'https://api-cloud.bitmart.com/spot/v1/symbols' | jq -r '.data | [.symbols | tostring] | @csv' | sed 's/"//g' > bitmart_allsymbols
+curl -s -X GET 'https://api-cloud.bitmart.com/spot/v1/symbols' | jq -r '.data | [.symbols | tostring] | @csv' | sed 's/"//g' > bitmart_allsymbols
 sed -i "s/\[//g" bitmart_allsymbols
 sed -i "s/\]//g" bitmart_allsymbols
 cat bitmart_allsymbols
